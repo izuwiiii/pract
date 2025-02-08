@@ -1,0 +1,46 @@
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+Yaroslav@DESKTOP-TS8KA4Q MINGW64 ~/Desktop/gittt/pract (main)
+$ git branch
+* main
+  new-branch
+
+Yaroslav@DESKTOP-TS8KA4Q MINGW64 ~/Desktop/gittt/pract (main)
+$ git log
+commit ee7f63902dbdf55577774c1a78946e3570c9060e (HEAD -> main, origin/main)
+Merge: a9441ca c6aee4c
+Author: Yaroslav <freefrip@gmail.com>
+Date:   Sat Feb 8 13:51:54 2025 +0200
+
+    conflict resolved
+
+commit a9441ca65574583dcdeeba5ebbf978f6c04ef3ab
+Author: Yaroslav <freefrip@gmail.com>
+Date:   Sat Feb 8 13:48:33 2025 +0200
+
+    make text h3
+
+commit c6aee4c770302e7752682a1dce479e6d505a8c57 (new-branch)
+Author: Yaroslav <freefrip@gmail.com>
+Date:   Sat Feb 8 13:42:29 2025 +0200
+
+    added h2
+
+commit 22d61a4c1af9064b14b5a2bc369d30e90986ce7e
+Author: Yaroslav <freefrip@gmail.com>
+Date:   Sat Feb 8 13:41:52 2025 +0200
+
+
+Yaroslav@DESKTOP-TS8KA4Q MINGW64 ~/Desktop/gittt/pract (main)
+$ git log --merges
+commit ee7f63902dbdf55577774c1a78946e3570c9060e (HEAD -> main, origin/main)
+Merge: a9441ca c6aee4c
+Author: Yaroslav <freefrip@gmail.com>
+Date:   Sat Feb 8 13:51:54 2025 +0200
+
+    conflict resolved
+
